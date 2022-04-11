@@ -1,54 +1,97 @@
 <html>
-    <head> <title> CV Francesco Fuoco </title> <style> p { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}</style> </head>
+    <head> <title> CV Francesco Fuoco </title>
+
+           <link rel="stylesheet" href="style.css">
+            
+           <style> p { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+                   
+                   h1 { font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+           
+           </style> 
+    </head>
+
     <body bgcolor="pink">
-        <center> <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> Curriculum Vitae </h1></center>
+
+       <div> 
+        <h1 class="posizione" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background-color:rgb(232, 151, 164); width:80%; margin-left:10%;"> Curriculum Vitae </h1> 
+        <img class="imgresize"src="ita.jpeg">
+     </div>
+
         <img src="Porcellino.jpg" width="300" height="190">
+
         <p> <b> - Francesco Fuoco </b> </p>
+
         <p> <b> - francescofuoco96@gmail.com </b> </p>
-        <center> <h3 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:brown;"> <b> Breve descrizione di me </b></h3></center>
+
+        <div class="posizione"> <h3> <b> Breve descrizione di me </b></h3> 
         <p> <b> Sono un animaletto abbastanza simpatico, sono tutto rosa e con un naso strano,
              molte volte il mio rapporto con il cibo mi rende abbastanza
             ciccione e per questo gli altri animaletti mi prendono in giro. Sono introverso ma molto affettuoso,
-            e spesso mi rotolo nel fango quando ho voglia di giocare. </b> </p>
+            e spesso mi rotolo nel fango quando ho voglia di giocare. </b> </p> </div>
 
-            <center> <table border="1" align="center">   
+            <div class="posizione"  >
+             <table align="center" border="2" style="text-align:center;">   
                 <tr>
-                    <th> <b> |Autonomia| </b></th>
-                    <th> <b> |Autostima| </b></th>
-                    <th> <b> |Adattamento| </b></th>
-                    <th> <b> |Pianificazione| </b></th>
-                    <th> <b> |Precisione| </b></th>
-                    <th> <b> |Intraprendenza| </b></th>
-                    <th> <b> |Problem Solving| </b></th>
-                    <th> <b> |Lavoro di Gruppo| </b></th>
+                    <th> <b> Autonomia </b></th>
+                    <th> <b> Autostima </b></th>
+                    <th> <b> Adattamento </b></th>
+                    <th> <b> Pianificazione </b></th>
+                    <th> <b> Precisione </b></th>
+                    <th> <b> Intraprendenza </b></th>
+                    <th> <b> Problem Solving </b></th>
+                    <th> <b> Lavoro di Gruppo </b></th>
                     
                 </tr>
                 <tr>
-                    <td align="center"> 9 </td>
-                    <td align="center"> 9 </td>
-                    <td align="center"> 9 </td>
-                    <td align="center"> 7 </td>
-                    <td align="center"> 10 </td>
-                    <td align="center"> 9 </td>
-                    <td align="center"> 9 </td>
-                    <td align="center"> 9 </td>
+                    <td> 9 </td>
+                    <td> 9 </td>
+                    <td> 9 </td>
+                    <td> 7 </td>
+                    <td> 10 </td>
+                    <td> 9 </td>
+                    <td> 9 </td>
+                    <td> 9 </td>
                 </tr>
-            </table></center>
+            </table> </div>
             <p> <b> Competenze Personali:</b></p>
-            <ol>
+            <ol style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
                 <li> <b> Buone competenze Informatiche </b> </li>
                 <li> <b> Pianista </b> </li>
                 <li> <b> Competenze Meccaniche </b> </li>
                 <li> <b> Competenze Elettroniche </b> </li>
                               
             </ol>
-            <center> <p> <b> Perché scegliermi ? </b></p></center>
+
+            <div class="posizione">
+                 <p> <b> Perché scegliermi ? </b></p>
+
             <p> <b> Negli ultimi tempi mi sono dedicato totalmente allo sviluppo di nuove entusiasmanti
                 storie. Comprare i miei fumetti vi trasporterà totalmente in un altro mondo!
             </b></p>
-            <center> <p> <b> Progetti futuri?</b></p></o></center>
-            <center><p><b> Aprire una grandissima Fumetteria al centro di New York</b></p></center>
-            <center> <button style="background-color: rgb(239, 239, 34);"> <a href="https://youtu.be/_V-__p_I9-I">Guarda un video sulla mia vita</a></button></center>
-        
+
+             <p> <b> Progetti futuri?</b></p>
+
+             <p><b> Aprire una grandissima Fumetteria al centro di New York</b></p>
+             <button style="background-color: rgb(216, 150, 161);"> <a href="https://youtu.be/_V-__p_I9-I">Guarda un video sulla mia vita</a></button></div>
+
+             <h1 style="color: brown;"> Inserisci i tuoi dati</h1>
+
+             <div style="background-color: rgb(232, 152, 165)">
+            <form action="http://www.google.it">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome"> <br>
+                <label for="cognome">Cognome:</label><br>
+                <input type="text" id="cognome"><br>
+                <label for="m">M</label> 
+                <input type="radio" id="m" name="sesso" value="maschio">
+                <label for="f">F</label>
+                <input type="radio" id="f" name="sesso" value="femmina"><br>
+                <label for="data">Data di nascita</label><br>
+                <input type="date" id="date"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email"><br><br>
+                <input type="submit" value="Entra">
+            </form> </div>
+
     </body>
 </html> 
