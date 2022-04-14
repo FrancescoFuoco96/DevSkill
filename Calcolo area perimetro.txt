@@ -1,0 +1,10 @@
+let input:number= prompt("Inserisci la base");
+let input2:number = prompt("Iinserisci l'altezza");
+let output:string = "l'area è: ";
+let risultato:number;
+let risultato2:number;
+
+risultato=input*input2;
+risultato2=(input*2)+(input2*2);
+alert("l'area è: " + risultato);
+alert("il perimetro è: " + risultato2);
