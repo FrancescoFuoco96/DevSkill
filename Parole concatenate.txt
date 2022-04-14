@@ -1,0 +1,10 @@
+let parola1:string= prompt("Inserisci la prima parola");
+let parola2:string= prompt("Inserisci la seconda parola");
+let parolaelaborata1:string;
+let parolaelaborata2:string;
+
+parolaelaborata1=parola1+parola2;
+parolaelaborata2=parola2+parola1;
+
+alert("La prima parola elaborata è: " + parolaelaborata1);
+alert("La seconda cosa elaborata è: " + parolaelaborata2);
