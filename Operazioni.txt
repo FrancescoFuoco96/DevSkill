@@ -1,0 +1,16 @@
+let primonumero:number = prompt("Inserisci il primo numero");
+let secondonumero:number = prompt("Inserisci il secondo numero");
+let addizione:number;
+let sottrazione:number;
+let moltiplicazione:number;
+let divisione:number;
+
+addizione=(primonumero*1)+(secondonumero*1);
+sottrazione=primonumero-secondonumero;
+moltiplicazione=primonumero*secondonumero;
+divisione=primonumero/secondonumero;
+
+alert("La somma è: " + addizione);
+alert("La sottrazione è: " + sottrazione);
+alert("Il prodotto è: " + moltiplicazione);
+alert("Il quoziente è: " + divisione);
