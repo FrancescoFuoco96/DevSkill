@@ -1,0 +1,15 @@
+let datadinascita:number = prompt("Inserisci la tua data di nascita: ");
+let annocorrente:number = 2022;
+let eta:number;
+
+eta = (annocorrente)-(datadinascita);
+
+if (datadinascita > annocorrente) {
+     alert("Ah ma allora vieni dal FUTURO!!");
+}
+else if (datadinascita<1918) {
+     alert("Qual'è il tuo Segreto per vivere così a lungo?");
+}
+else  {alert("La tua eta' è: " + eta);
+}
+
