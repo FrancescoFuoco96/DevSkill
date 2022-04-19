@@ -1,0 +1,4 @@
+let numero:number = prompt("Inserisci un numero: ");
+
+if (numero%2 == 0) {alert("Il numero inserito è PARI!");}
+if (numero%2 != 0) {alert("Il numero è inserito DISPARI!");}
