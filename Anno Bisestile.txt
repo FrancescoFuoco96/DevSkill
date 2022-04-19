@@ -1,0 +1,5 @@
+let anno:number = prompt("Inserisci l'anno: ");
+
+if (anno%400 == 0) {alert("L'anno inserito è BISESTILE!");}
+else if ((anno%4 ==0) && (anno%100 !=0)) {alert("L'anno inserito è BISESTILE");}
+else {alert("L'anno NON è BISESTILE!")}
